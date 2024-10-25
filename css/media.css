@@ -1,0 +1,16 @@
+@media (max-width: 857px) {
+  .main-content h1 {
+    width: 400px;
+  }
+}
+
+@media (max-width: 650px) {
+  .main {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .main-content {
+    align-items: center;
+    gap: 16px;
+  }
+}
