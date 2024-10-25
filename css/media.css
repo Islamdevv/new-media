@@ -1,3 +1,12 @@
+@media (max-width: 859px) {
+  .main img {
+    max-width: 190px;
+  }
+  .container {
+    width: 90%;
+  }
+}
+
 @media (max-width: 650px) {
   .header {
     display: none;
@@ -10,5 +19,15 @@
   .main-content {
     align-items: center;
     gap: 16px;
+  }
+  .post-top {
+    justify-content: center;
+  }
+  .post-top a {
+    display: none;
+  }
+  .post {
+    flex-direction: column;
+    align-items: center;
   }
 }
